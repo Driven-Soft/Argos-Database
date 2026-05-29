@@ -1,0 +1,170 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FF8DD6E5-E430-D873-42F2-72F64BBCF82F" name="ANALISES_RISCO">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:55:27 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="6E5F7882-571B-2E28-9F5E-B18501ED2EC6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="6472E0FE-FA3E-F47E-F752-F4C5BC30C9E1">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:55:43 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="6E5F7882-571B-2E28-9F5E-B18501ED2EC6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="chuva_mm_24h" id="10A31274-7000-A9CE-D229-79F08CA886FE">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:55:49 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="6E5F7882-571B-2E28-9F5E-B18501ED2EC6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,5,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="probabilidade_enchente" id="82A99B6A-6EE1-A331-DBFE-5AC0351617B5">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:57:22 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="6E5F7882-571B-2E28-9F5E-B18501ED2EC6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,4,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="indice_susceptibilidade" id="0DF83720-9A81-7430-E6A4-6B6AF0B4BFEB">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:58:05 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="6E5F7882-571B-2E28-9F5E-B18501ED2EC6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,4,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="score_final" id="5DFB66CD-D7B5-30B8-20A8-590F5F5423A5">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:58:27 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="6E5F7882-571B-2E28-9F5E-B18501ED2EC6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nivel_risco" id="FF4489EB-7BBE-29AE-21DA-4D34CF31BAC2">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:58:44 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="6E5F7882-571B-2E28-9F5E-B18501ED2EC6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fonte_dados" id="D3C23D84-4E5B-EAD5-A9F8-285C08991CA0">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:59:02 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="6E5F7882-571B-2E28-9F5E-B18501ED2EC6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_analise" id="987079C8-2085-5DD4-8147-1C5068B221D5">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:59:15 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="6E5F7882-571B-2E28-9F5E-B18501ED2EC6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="B0BF4409-CCDA-F56E-7D88-46ACA6ECE90E">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 19:19:39 UTC</createdTime>
+<generatorID>05D332D8-CDDA-E93B-9F22-3D3E4B930CA2</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="6E5F7882-571B-2E28-9F5E-B18501ED2EC6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D3F7A873-A281-C47C-E7BF-7E321A87B58F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="366D246F-0B20-4D40-E2F2-FA7E56E5149F">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 19:23:02 UTC</createdTime>
+<generatorID>597191E1-30BB-6657-7259-F39CC1D22A46</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="6E5F7882-571B-2E28-9F5E-B18501ED2EC6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3213DB56-7271-9FD6-7F06-FFDC06A26D01</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4B815EF8-D148-F452-EDAE-C8ECDDE1BD14" name="ANALISE_RISCO PK">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:55:48 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="6E5F7882-571B-2E28-9F5E-B18501ED2EC6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6472E0FE-FA3E-F47E-F752-F4C5BC30C9E1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="zonas_ocorrencias" directorySegmentName="seg_0" id="98C631AA-2C3C-283A-E9E6-7CBD2C2A043B">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 19:43:05 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<sourcePk>BE9AB196-2765-826D-E9A1-7714021D6A55</sourcePk>
+<targetPk>AC753FD7-3CF0-D5CB-305D-B1DEEF2C881E</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>446F8997-90EF-F15F-D7E9-226600F16FE0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1764F7A8-D9B6-CCED-82BB-DCEAC0E7078D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

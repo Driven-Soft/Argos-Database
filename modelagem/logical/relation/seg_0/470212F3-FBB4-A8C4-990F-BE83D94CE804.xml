@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="usuarios_ocorrencias" directorySegmentName="seg_0" id="470212F3-FBB4-A8C4-990F-BE83D94CE804">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 19:10:02 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="937D017F-ED95-4C31-34F5-E4F38B6E5DE0" value="true"/>
+</engineerTo>
+<sourcePk>77D52D85-5C3F-E7D3-305C-81CBE6D55486</sourcePk>
+<targetPk>AC753FD7-3CF0-D5CB-305D-B1DEEF2C881E</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>04745E2F-7626-FDD9-ADEA-B1861180CDC2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1764F7A8-D9B6-CCED-82BB-DCEAC0E7078D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

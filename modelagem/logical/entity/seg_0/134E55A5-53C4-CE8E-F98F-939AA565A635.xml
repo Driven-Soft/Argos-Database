@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="134E55A5-53C4-CE8E-F98F-939AA565A635" name="LOGS_ALERTA">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:59:38 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="9659D1B4-FB6B-19E7-1444-1CF357B66933">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:59:43 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="acao" id="DF1193F1-47B7-A245-A8F3-E8FE5C5B6310">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:59:48 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_criacao" id="B2ECC889-432A-D45E-FE78-6F1FEA1A1EA1">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 19:00:16 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="809CE547-7EB3-E5F2-FD6F-E425A20AD351">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 19:38:23 UTC</createdTime>
+<generatorID>AD2F0D2F-9A0C-6BBB-9144-38B11A694966</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>BC70046B-F11E-CC07-9B69-D29B36366F98</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BEEBD2D3-C178-FF76-FBD8-F71E3263409F" name="LOGS_ALERTA PK">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:59:48 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9659D1B4-FB6B-19E7-1444-1CF357B66933</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

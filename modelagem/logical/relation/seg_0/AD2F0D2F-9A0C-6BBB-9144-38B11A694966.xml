@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="alertas_logs" directorySegmentName="seg_0" id="AD2F0D2F-9A0C-6BBB-9144-38B11A694966">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 19:38:23 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<sourcePk>6EB3AD3C-8DA0-2C1D-6000-9FE5C38957BF</sourcePk>
+<targetPk>BEEBD2D3-C178-FF76-FBD8-F71E3263409F</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6D1EF64A-EF64-8DE1-77EC-6735B8744124</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>134E55A5-53C4-CE8E-F98F-939AA565A635</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

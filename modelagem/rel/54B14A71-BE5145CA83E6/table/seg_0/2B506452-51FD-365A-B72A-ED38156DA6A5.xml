@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B506452-51FD-365A-B72A-ED38156DA6A5" name="USUARIOS">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 19:43:38 UTC</createdTime>
+<generatorID>04745E2F-7626-FDD9-ADEA-B1861180CDC2</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="97BE3E60-9AB6-5E3E-4EBA-F1ABB2920E83">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 19:43:38 UTC</createdTime>
+<generatorID>3213DB56-7271-9FD6-7F06-FFDC06A26D01</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="292C2887-B4BC-C72B-3817-053A2DD59DCC">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 19:43:38 UTC</createdTime>
+<generatorID>33EFB491-BFBE-A303-830A-859B9F9420CE</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="E85E2BC8-7DA9-BD48-917A-5A17FEDF9F56">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 19:43:38 UTC</createdTime>
+<generatorID>7D78DDC2-B512-C65F-2D7C-FA785A292436</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="40571EA7-BBA5-DC08-5525-B018286B6890">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 19:43:38 UTC</createdTime>
+<generatorID>DA13C697-4E4F-A397-9D7C-24713B407099</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="9B03BB83-210E-0C41-B36C-D46FDF7CFCB2">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 19:43:38 UTC</createdTime>
+<generatorID>37B1C0A8-2B71-CF71-B1EA-A07404826F64</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="5AA40CA9-D97C-AC2A-5FED-88D3700A9D54">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 19:43:38 UTC</createdTime>
+<generatorID>785D5AE9-5500-43E1-8927-57E1CF99AD43</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_criacao" id="5F049742-7E9C-EC5B-F8D4-8BFDCF0BF6FE">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 19:43:38 UTC</createdTime>
+<generatorID>A369FC52-8164-ED13-6292-BF1E7E9D5319</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ativo" id="036016C0-D8E7-A83E-37C7-4A50A18E37DE">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 19:43:38 UTC</createdTime>
+<generatorID>D22041F7-B261-707F-D930-70844347AE53</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C434F92-C147-B563-4209-7BE213751873" name="USUARIOS_PK">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 19:43:38 UTC</createdTime>
+<generatorID>77D52D85-5C3F-E7D3-305C-81CBE6D55486</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97BE3E60-9AB6-5E3E-4EBA-F1ABB2920E83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

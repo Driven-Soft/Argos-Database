@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D1B2C289-DB54-96AC-AC5F-E0E6FF2C4D95" containerWithKeyObject="E1E0850E-DAFE-386C-1A56-A49DC9A966FB" localFKIndex="C7320BB5-9088-92FF-AFB7-0053604E6553" name="OCORRENCIAS_TIPOS_FK">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 19:43:38 UTC</createdTime>
+<generatorID>276E0AC0-BDF6-958D-6421-095B5AB8920E</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<referredTableLongName>TIPOS_OCORRENCIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B4EFBE2B-0722-F0B2-509E-F5AC443EED89</referredTableID>
+<keyObject>06D96DA0-3DAE-2E7D-AF39-C5FB6EEDA7DE</keyObject>
+<referredKeyID>06D96DA0-3DAE-2E7D-AF39-C5FB6EEDA7DE</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

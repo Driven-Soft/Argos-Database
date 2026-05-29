@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2315B3A0-B8AF-15C1-7153-9500540E4E8D" containerWithKeyObject="58012A94-971F-6E74-910E-0240330648B1" localFKIndex="15AAE9B0-19C1-2E8A-803C-1264064B2096" name="COMENTARIOS_OCORRENCIAS_FK">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 19:43:38 UTC</createdTime>
+<generatorID>3D371BAA-040E-D0E0-1CC0-D04EDF6D50E7</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<referredTableLongName>OCORRENCIAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E1E0850E-DAFE-386C-1A56-A49DC9A966FB</referredTableID>
+<keyObject>32404362-D197-D87C-BEB3-39E5932432A7</keyObject>
+<referredKeyID>32404362-D197-D87C-BEB3-39E5932432A7</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

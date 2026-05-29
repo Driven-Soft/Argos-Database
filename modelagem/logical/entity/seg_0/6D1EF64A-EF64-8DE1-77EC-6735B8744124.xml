@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6D1EF64A-EF64-8DE1-77EC-6735B8744124" name="ALERTAS">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:10:22 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="BC70046B-F11E-CC07-9B69-D29B36366F98">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:10:33 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titulo" id="CB82B60F-1BAB-9A97-0CAC-F9FE2B11FAE8">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:10:38 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="60636921-B940-8A77-861A-3B37F664A666">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:10:51 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nivel_alerta" id="2D460A08-A79F-3472-1B22-AEF496FCEA7E">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:11:02 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="inicio_vigencia" id="EBEEB7DD-B932-14E9-06F6-2D0BB1E5B0C8">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:11:13 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fim_vigencia" id="095BF1F6-82F0-55D2-E2E3-E579B5044ED9">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:11:29 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_criacao" id="8C1EFBD8-336D-A017-E003-79576BC9D40B">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:11:37 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ativo" id="D66FBCA0-D691-CD5B-9D64-6633E0EEBF49">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:11:42 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="28D279D0-7789-EA6B-3748-5132E17E2825">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 19:24:10 UTC</createdTime>
+<generatorID>F3D9212E-5E01-5DCF-6F00-C6E08EE7AD18</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D3F7A873-A281-C47C-E7BF-7E321A87B58F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="BE043AA8-C54E-DE00-C6BB-6BA0EC762481">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 19:24:40 UTC</createdTime>
+<generatorID>51CA03D7-E136-26CA-B705-BB672BD8BEFD</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3213DB56-7271-9FD6-7F06-FFDC06A26D01</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6EB3AD3C-8DA0-2C1D-6000-9FE5C38957BF" name="ALERTAS PK">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:10:37 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC70046B-F11E-CC07-9B69-D29B36366F98</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

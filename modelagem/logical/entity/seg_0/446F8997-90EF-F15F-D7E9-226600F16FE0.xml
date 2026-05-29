@@ -1,0 +1,204 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="446F8997-90EF-F15F-D7E9-226600F16FE0" name="ZONAS_RISCO">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:04:35 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="D3F7A873-A281-C47C-E7BF-7E321A87B58F">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 19:17:01 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="2F8FF46F-9DD1-1316-141F-100633C63FC8">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:04:55 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidade" id="2FC340D9-500C-20EF-DD8D-5A2B9840202E">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:05:05 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="B04F5C47-2985-316A-0D77-DB4119315EAA">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:05:15 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="latitude" id="C64B47CB-FC39-C477-4106-F6023D0DAEE2">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:05:23 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="longitude" id="5D124601-72BF-D9B5-3F18-262BF67370F3">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:05:34 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="5E651DDB-7F6A-F16B-7C58-DBCF37EFB759">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:05:46 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nivel_risco_atual" id="6999DDD4-7754-5621-C4E2-4B36DDB043D5">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:05:55 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="indice_susceptibilidade" id="00B0697C-30FE-D10B-2F1C-6D2CE8EB2DAF">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:06:19 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,4,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="indice_historico_risco" id="75E41EE6-DE31-D9F6-409F-A8B012AEE8C5">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:09:16 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,4,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ultima_analise" id="FDC2B5CA-E5FC-F6D7-D896-2A5309070BC0">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:09:34 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ativa" id="585B792E-7C45-05B5-C555-60DDA638BC0F">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:09:42 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_criacao" id="CD59C11B-90DE-E75A-0017-D7EAA171C605">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:09:48 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BE9AB196-2765-826D-E9A1-7714021D6A55" name="Zonas_Risco PK">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 18:04:55 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D3F7A873-A281-C47C-E7BF-7E321A87B58F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

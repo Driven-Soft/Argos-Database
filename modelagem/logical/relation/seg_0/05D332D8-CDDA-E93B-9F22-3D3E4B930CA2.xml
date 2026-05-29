@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="zonas_analises_risco" directorySegmentName="seg_0" id="05D332D8-CDDA-E93B-9F22-3D3E4B930CA2">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 19:19:39 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="937D017F-ED95-4C31-34F5-E4F38B6E5DE0" value="true"/>
+</engineerTo>
+<sourcePk>BE9AB196-2765-826D-E9A1-7714021D6A55</sourcePk>
+<targetPk>4B815EF8-D148-F452-EDAE-C8ECDDE1BD14</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>446F8997-90EF-F15F-D7E9-226600F16FE0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FF8DD6E5-E430-D873-42F2-72F64BBCF82F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

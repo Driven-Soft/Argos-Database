@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="usuarios_comentarios" directorySegmentName="seg_0" id="E4AACED4-CA17-BC24-6136-110D4A5C0E81">
+<createdBy>shhit</createdBy>
+<createdTime>2026-05-29 19:22:28 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="937D017F-ED95-4C31-34F5-E4F38B6E5DE0" value="true"/>
+</engineerTo>
+<sourcePk>77D52D85-5C3F-E7D3-305C-81CBE6D55486</sourcePk>
+<targetPk>5DF95C76-782B-D4A1-E6BB-8CD033B305B0</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>04745E2F-7626-FDD9-ADEA-B1861180CDC2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>64691201-538B-EAC5-EF29-C94401DC0765</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
