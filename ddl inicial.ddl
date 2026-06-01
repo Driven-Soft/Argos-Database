@@ -386,4 +386,179 @@ ALTER TABLE ARGOS_ZONAS_RISCO
     CHECK (longitude BETWEEN -180 AND 180)
 ;
 
+-- INSERTS
+
+-- Usuários
+
+INSERT INTO ARGOS_USUARIOS VALUES (1, 'Carlos Silva', 'carlos.silva@argos.com', '123456', '(11)99999-1001', 'ADMIN', DATE '2026-01-10', 'S');
+INSERT INTO ARGOS_USUARIOS VALUES (2, 'Mariana Souza', 'mariana.souza@argos.com', '123456', '(11)99999-1002', 'ADMIN', DATE '2026-01-11', 'S');
+
+INSERT INTO ARGOS_USUARIOS VALUES (3, 'Joao Pereira', 'joao.pereira@argos.com', '123456', '(11)99999-1003', 'DEFESA_CIVIL', DATE '2026-01-12', 'S');
+INSERT INTO ARGOS_USUARIOS VALUES (4, 'Fernanda Lima', 'fernanda.lima@argos.com', '123456', '(11)99999-1004', 'DEFESA_CIVIL', DATE '2026-01-13', 'S');
+
+INSERT INTO ARGOS_USUARIOS VALUES (5, 'Pedro Santos', 'pedro.santos@argos.com', '123456', '(11)99999-1005', 'CIDADAO', DATE '2026-01-14', 'S');
+INSERT INTO ARGOS_USUARIOS VALUES (6, 'Ana Oliveira', 'ana.oliveira@argos.com', '123456', '(11)99999-1006', 'CIDADAO', DATE '2026-01-15', 'S');
+INSERT INTO ARGOS_USUARIOS VALUES (7, 'Lucas Costa', 'lucas.costa@argos.com', '123456', '(11)99999-1007', 'CIDADAO', DATE '2026-01-16', 'S');
+INSERT INTO ARGOS_USUARIOS VALUES (8, 'Juliana Rocha', 'juliana.rocha@argos.com', '123456', '(11)99999-1008', 'CIDADAO', DATE '2026-01-17', 'S');
+INSERT INTO ARGOS_USUARIOS VALUES (9, 'Rafael Gomes', 'rafael.gomes@argos.com', '123456', '(11)99999-1009', 'CIDADAO', DATE '2026-01-18', 'S');
+INSERT INTO ARGOS_USUARIOS VALUES (10, 'Beatriz Martins', 'beatriz.martins@argos.com', '123456', '(11)99999-1010', 'CIDADAO', DATE '2026-01-19', 'S');
+
+-- Tipos Ocorrência
+
+INSERT INTO ARGOS_TIPOS_OCORRENCIA (id, nome, descricao, ativo)
+VALUES (1, 'ENCHENTE', 'Alagamentos e enchentes em áreas urbanas', 'S');
+
+INSERT INTO ARGOS_TIPOS_OCORRENCIA (id, nome, descricao, ativo)
+VALUES (2, 'DESLIZAMENTO', 'Movimentação de terra em encostas', 'S');
+
+INSERT INTO ARGOS_TIPOS_OCORRENCIA (id, nome, descricao, ativo)
+VALUES (3, 'ALAGAMENTO', 'Acúmulo de água em vias públicas', 'S');
+
+INSERT INTO ARGOS_TIPOS_OCORRENCIA (id, nome, descricao, ativo)
+VALUES (4, 'QUEDA_ARVORE', 'Queda de árvores causada por chuvas ou ventos', 'S');
+
+INSERT INTO ARGOS_TIPOS_OCORRENCIA (id, nome, descricao, ativo)
+VALUES (5, 'INTERDICAO_VIA', 'Bloqueio total ou parcial de vias', 'S');
+
+-- Zonas de risco
+
+INSERT INTO ARGOS_ZONAS_RISCO (id, nome, cidade, estado, latitude, longitude, descricao, nivel_risco_atual, indice_susceptibilidade, indice_historico_risco, ultima_analise, ativa, data_criacao)
+VALUES (1, 'Centro Historico', 'Petropolis', 'RJ', -22.509722, -43.177500, 'Area com historico recorrente de deslizamentos', 'CRITICO', 0.950, 0.920, TO_DATE('01/06/2026','DD/MM/YYYY'), 'S', TO_DATE('01/01/2026','DD/MM/YYYY'));
+
+INSERT INTO ARGOS_ZONAS_RISCO (id, nome, cidade, estado, latitude, longitude, descricao, nivel_risco_atual, indice_susceptibilidade, indice_historico_risco, ultima_analise, ativa, data_criacao)
+VALUES (2, 'Margem do Rio Itajai', 'Blumenau', 'SC', -26.919444, -49.066111, 'Area sujeita a enchentes periodicas', 'ALTO', 0.850, 0.870, TO_DATE('01/06/2026','DD/MM/YYYY'), 'S', TO_DATE('01/01/2026','DD/MM/YYYY'));
+
+INSERT INTO ARGOS_ZONAS_RISCO (id, nome, cidade, estado, latitude, longitude, descricao, nivel_risco_atual, indice_susceptibilidade, indice_historico_risco, ultima_analise, ativa, data_criacao)
+VALUES (3, 'Vila Pantanal', 'Curitiba', 'PR', -25.520833, -49.229722, 'Regiao com alagamentos frequentes', 'MEDIO', 0.620, 0.580, TO_DATE('01/06/2026','DD/MM/YYYY'), 'S', TO_DATE('01/01/2026','DD/MM/YYYY'));
+
+INSERT INTO ARGOS_ZONAS_RISCO (id, nome, cidade, estado, latitude, longitude, descricao, nivel_risco_atual, indice_susceptibilidade, indice_historico_risco, ultima_analise, ativa, data_criacao)
+VALUES (4, 'Zona Ribeirinha', 'Recife', 'PE', -8.047562, -34.877000, 'Area vulneravel a cheias e mare alta', 'ALTO', 0.790, 0.810, TO_DATE('01/06/2026','DD/MM/YYYY'), 'S', TO_DATE('01/01/2026','DD/MM/YYYY'));
+
+INSERT INTO ARGOS_ZONAS_RISCO (id, nome, cidade, estado, latitude, longitude, descricao, nivel_risco_atual, indice_susceptibilidade, indice_historico_risco, ultima_analise, ativa, data_criacao)
+VALUES (5, 'Bairro Central', 'Sao Paulo', 'SP', -23.550520, -46.633308, 'Area monitorada para enchentes urbanas', 'BAIXO', 0.300, 0.250, TO_DATE('01/06/2026','DD/MM/YYYY'), 'S', TO_DATE('01/01/2026','DD/MM/YYYY'));
+
+-- Análises de risco
+
+INSERT INTO ARGOS_ANALISES_RISCO (id, chuva_mm_24h, probabilidade_enchente, indice_susceptibilidade, score_final, nivel_risco, fonte_dados, data_analise, ZONAS_RISCO_id, USUARIOS_id)
+VALUES (1, 120.5, 0.980, 0.950, 98, 'CRITICO', 'SENSOR_LOCAL', TO_DATE('01/06/2026','DD/MM/YYYY'), 1, 2);
+
+INSERT INTO ARGOS_ANALISES_RISCO (id, chuva_mm_24h, probabilidade_enchente, indice_susceptibilidade, score_final, nivel_risco, fonte_dados, data_analise, ZONAS_RISCO_id, USUARIOS_id)
+VALUES (2, 85.0, 0.870, 0.850, 87, 'ALTO', 'SENSOR_LOCAL', TO_DATE('01/06/2026','DD/MM/YYYY'), 2, 2);
+
+INSERT INTO ARGOS_ANALISES_RISCO (id, chuva_mm_24h, probabilidade_enchente, indice_susceptibilidade, score_final, nivel_risco, fonte_dados, data_analise, ZONAS_RISCO_id, USUARIOS_id)
+VALUES (3, 55.3, 0.630, 0.620, 63, 'MEDIO', 'SENSOR_LOCAL', TO_DATE('01/06/2026','DD/MM/YYYY'), 3, 3);
+
+INSERT INTO ARGOS_ANALISES_RISCO (id, chuva_mm_24h, probabilidade_enchente, indice_susceptibilidade, score_final, nivel_risco, fonte_dados, data_analise, ZONAS_RISCO_id, USUARIOS_id)
+VALUES (4, 78.2, 0.810, 0.790, 81, 'ALTO', 'SENSOR_LOCAL', TO_DATE('01/06/2026','DD/MM/YYYY'), 4, 2);
+
+INSERT INTO ARGOS_ANALISES_RISCO (id, chuva_mm_24h, probabilidade_enchente, indice_susceptibilidade, score_final, nivel_risco, fonte_dados, data_analise, ZONAS_RISCO_id, USUARIOS_id)
+VALUES (5, 18.7, 0.290, 0.300, 29, 'BAIXO', 'SENSOR_LOCAL', TO_DATE('01/06/2026','DD/MM/YYYY'), 5, 3);
+
+-- Ocorrências
+
+INSERT INTO ARGOS_OCORRENCIAS (id, titulo, descricao, status, latitude, longitude, data_criacao, data_atualizacao, resolvido_em, USUARIOS_id, TIPOS_OCORRENCIA_id, ZONAS_RISCO_id)
+VALUES (1, 'Enchente na Rua Principal', 'Agua invadiu residencias da regiao', 'ABERTA', -22.509700, -43.177400, TO_DATE('01/06/2026','DD/MM/YYYY'), NULL, NULL, 1, 1, 1);
+
+INSERT INTO ARGOS_OCORRENCIAS (id, titulo, descricao, status, latitude, longitude, data_criacao, data_atualizacao, resolvido_em, USUARIOS_id, TIPOS_OCORRENCIA_id, ZONAS_RISCO_id)
+VALUES (2, 'Deslizamento em Encosta', 'Terra atingiu parte da via publica', 'EM_ANALISE', -22.509500, -43.177200, TO_DATE('01/06/2026','DD/MM/YYYY'), TO_DATE('02/06/2026','DD/MM/YYYY'), NULL, 1, 2, 1);
+
+INSERT INTO ARGOS_OCORRENCIAS (id, titulo, descricao, status, latitude, longitude, data_criacao, data_atualizacao, resolvido_em, USUARIOS_id, TIPOS_OCORRENCIA_id, ZONAS_RISCO_id)
+VALUES (3, 'Alagamento em Avenida', 'Via parcialmente bloqueada', 'RESOLVIDA', -26.919400, -49.066000, TO_DATE('28/05/2026','DD/MM/YYYY'), TO_DATE('29/05/2026','DD/MM/YYYY'), TO_DATE('30/05/2026','DD/MM/YYYY'), 4, 3, 2);
+
+INSERT INTO ARGOS_OCORRENCIAS (id, titulo, descricao, status, latitude, longitude, data_criacao, data_atualizacao, resolvido_em, USUARIOS_id, TIPOS_OCORRENCIA_id, ZONAS_RISCO_id)
+VALUES (4, 'Queda de Arvore', 'Arvore bloqueando passagem de veiculos', 'ABERTA', -25.520800, -49.229600, TO_DATE('01/06/2026','DD/MM/YYYY'), NULL, NULL, 4, 4, 3);
+
+INSERT INTO ARGOS_OCORRENCIAS (id, titulo, descricao, status, latitude, longitude, data_criacao, data_atualizacao, resolvido_em, USUARIOS_id, TIPOS_OCORRENCIA_id, ZONAS_RISCO_id)
+VALUES (5, 'Interdicao de Via', 'Rua fechada por risco de inundacao', 'EM_ANALISE', -8.047500, -34.876900, TO_DATE('31/05/2026','DD/MM/YYYY'), TO_DATE('01/06/2026','DD/MM/YYYY'), NULL, 5, 5, 4);
+
+INSERT INTO ARGOS_OCORRENCIAS (id, titulo, descricao, status, latitude, longitude, data_criacao, data_atualizacao, resolvido_em, USUARIOS_id, TIPOS_OCORRENCIA_id, ZONAS_RISCO_id)
+VALUES (6, 'Novo Ponto de Alagamento', 'Acumulo de agua apos chuva intensa', 'ABERTA', -23.550500, -46.633200, TO_DATE('01/06/2026','DD/MM/YYYY'), NULL, NULL, 1, 3, 5);
+
+INSERT INTO ARGOS_OCORRENCIAS (id, titulo, descricao, status, latitude, longitude, data_criacao, data_atualizacao, resolvido_em, USUARIOS_id, TIPOS_OCORRENCIA_id, ZONAS_RISCO_id)
+VALUES (7, 'Enchente em Bairro Residencial', 'Varias casas afetadas', 'EM_ANALISE', -26.919300, -49.065900, TO_DATE('30/05/2026','DD/MM/YYYY'), TO_DATE('01/06/2026','DD/MM/YYYY'), NULL, 4, 1, 2);
+
+INSERT INTO ARGOS_OCORRENCIAS (id, titulo, descricao, status, latitude, longitude, data_criacao, data_atualizacao, resolvido_em, USUARIOS_id, TIPOS_OCORRENCIA_id, ZONAS_RISCO_id)
+VALUES (8, 'Deslizamento de Pequeno Porte', 'Movimentacao de terra sem vitimas', 'RESOLVIDA', -25.520700, -49.229500, TO_DATE('25/05/2026','DD/MM/YYYY'), TO_DATE('26/05/2026','DD/MM/YYYY'), TO_DATE('27/05/2026','DD/MM/YYYY'), 5, 2, 3);
+
+-- Comentários ocorrências
+
+INSERT INTO ARGOS_COMENTARIOS_OCORRENCIA (id, mensagem, data_criacao, ativo, OCORRENCIAS_id, USUARIOS_id)
+VALUES (1, 'Equipe acionada para verificacao da area.', TO_DATE('01/06/2026','DD/MM/YYYY'), 'S', 1, 2);
+
+INSERT INTO ARGOS_COMENTARIOS_OCORRENCIA (id, mensagem, data_criacao, ativo, OCORRENCIAS_id, USUARIOS_id)
+VALUES (2, 'Moradores foram orientados a evacuar o local.', TO_DATE('01/06/2026','DD/MM/YYYY'), 'S', 1, 3);
+
+INSERT INTO ARGOS_COMENTARIOS_OCORRENCIA (id, mensagem, data_criacao, ativo, OCORRENCIAS_id, USUARIOS_id)
+VALUES (3, 'Analise tecnica em andamento.', TO_DATE('02/06/2026','DD/MM/YYYY'), 'S', 2, 2);
+
+INSERT INTO ARGOS_COMENTARIOS_OCORRENCIA (id, mensagem, data_criacao, ativo, OCORRENCIAS_id, USUARIOS_id)
+VALUES (4, 'Defesa Civil notificada.', TO_DATE('02/06/2026','DD/MM/YYYY'), 'S', 2, 3);
+
+INSERT INTO ARGOS_COMENTARIOS_OCORRENCIA (id, mensagem, data_criacao, ativo, OCORRENCIAS_id, USUARIOS_id)
+VALUES (5, 'Equipe de manutencao deslocada.', TO_DATE('01/06/2026','DD/MM/YYYY'), 'S', 4, 2);
+
+INSERT INTO ARGOS_COMENTARIOS_OCORRENCIA (id, mensagem, data_criacao, ativo, OCORRENCIAS_id, USUARIOS_id)
+VALUES (6, 'Aguardando liberacao da via.', TO_DATE('01/06/2026','DD/MM/YYYY'), 'S', 5, 3);
+
+INSERT INTO ARGOS_COMENTARIOS_OCORRENCIA (id, mensagem, data_criacao, ativo, OCORRENCIAS_id, USUARIOS_id)
+VALUES (7, 'Nova vistoria agendada.', TO_DATE('02/06/2026','DD/MM/YYYY'), 'S', 5, 2);
+
+INSERT INTO ARGOS_COMENTARIOS_OCORRENCIA (id, mensagem, data_criacao, ativo, OCORRENCIAS_id, USUARIOS_id)
+VALUES (8, 'Ocorrencia confirmada por agentes locais.', TO_DATE('01/06/2026','DD/MM/YYYY'), 'S', 6, 3);
+
+INSERT INTO ARGOS_COMENTARIOS_OCORRENCIA (id, mensagem, data_criacao, ativo, OCORRENCIAS_id, USUARIOS_id)
+VALUES (9, 'Nivel da agua segue aumentando.', TO_DATE('01/06/2026','DD/MM/YYYY'), 'S', 7, 2);
+
+INSERT INTO ARGOS_COMENTARIOS_OCORRENCIA (id, mensagem, data_criacao, ativo, OCORRENCIAS_id, USUARIOS_id)
+VALUES (10, 'Monitoramento intensificado na regiao.', TO_DATE('02/06/2026','DD/MM/YYYY'), 'S', 7, 3);
+
+-- Alertas
+
+INSERT INTO ARGOS_ALERTAS (id, titulo, descricao, nivel_alerta, inicio_vigencia, fim_vigencia, data_criacao, ativo, ZONAS_RISCO_id, USUARIOS_id)
+VALUES (1, 'Risco Critico de Deslizamento', 'Possibilidade elevada de deslizamentos devido ao volume de chuvas.', 'CRITICO', TO_DATE('01/06/2026','DD/MM/YYYY'), TO_DATE('05/06/2026','DD/MM/YYYY'), TO_DATE('01/06/2026','DD/MM/YYYY'), 'S', 1, 2);
+
+INSERT INTO ARGOS_ALERTAS (id, titulo, descricao, nivel_alerta, inicio_vigencia, fim_vigencia, data_criacao, ativo, ZONAS_RISCO_id, USUARIOS_id)
+VALUES (2, 'Alerta de Enchente', 'Monitoramento intensificado devido ao aumento do nivel do rio.', 'ALTO', TO_DATE('01/06/2026','DD/MM/YYYY'), TO_DATE('04/06/2026','DD/MM/YYYY'), TO_DATE('01/06/2026','DD/MM/YYYY'), 'S', 2, 2);
+
+INSERT INTO ARGOS_ALERTAS (id, titulo, descricao, nivel_alerta, inicio_vigencia, fim_vigencia, data_criacao, ativo, ZONAS_RISCO_id, USUARIOS_id)
+VALUES (3, 'Possivel Alagamento', 'Chuvas moderadas podem causar pontos de alagamento.', 'MEDIO', TO_DATE('01/06/2026','DD/MM/YYYY'), TO_DATE('03/06/2026','DD/MM/YYYY'), TO_DATE('01/06/2026','DD/MM/YYYY'), 'S', 3, 3);
+
+INSERT INTO ARGOS_ALERTAS (id, titulo, descricao, nivel_alerta, inicio_vigencia, fim_vigencia, data_criacao, ativo, ZONAS_RISCO_id, USUARIOS_id)
+VALUES (4, 'Atencao para Cheias', 'Regiao em observacao devido a previsao de chuvas intensas.', 'ALTO', TO_DATE('01/06/2026','DD/MM/YYYY'), TO_DATE('04/06/2026','DD/MM/YYYY'), TO_DATE('01/06/2026','DD/MM/YYYY'), 'S', 4, 2);
+
+INSERT INTO ARGOS_ALERTAS (id, titulo, descricao, nivel_alerta, inicio_vigencia, fim_vigencia, data_criacao, ativo, ZONAS_RISCO_id, USUARIOS_id)
+VALUES (5, 'Monitoramento Preventivo', 'Sem risco imediato, apenas acompanhamento preventivo.', 'BAIXO', TO_DATE('01/06/2026','DD/MM/YYYY'), TO_DATE('02/06/2026','DD/MM/YYYY'), TO_DATE('01/06/2026','DD/MM/YYYY'), 'S', 5, 3);
+
+-- Logs alertas
+
+INSERT INTO ARGOS_LOGS_ALERTA (id, acao, data_criacao, ALERTAS_id, USUARIOS_id)
+VALUES (1, 'CRIADO', TO_DATE('01/06/2026','DD/MM/YYYY'), 1, 2);
+
+INSERT INTO ARGOS_LOGS_ALERTA (id, acao, data_criacao, ALERTAS_id, USUARIOS_id)
+VALUES (2, 'ATIVADO', TO_DATE('01/06/2026','DD/MM/YYYY'), 1, 2);
+
+INSERT INTO ARGOS_LOGS_ALERTA (id, acao, data_criacao, ALERTAS_id, USUARIOS_id)
+VALUES (3, 'CRIADO', TO_DATE('01/06/2026','DD/MM/YYYY'), 2, 2);
+
+INSERT INTO ARGOS_LOGS_ALERTA (id, acao, data_criacao, ALERTAS_id, USUARIOS_id)
+VALUES (4, 'EDITADO', TO_DATE('02/06/2026','DD/MM/YYYY'), 2, 3);
+
+INSERT INTO ARGOS_LOGS_ALERTA (id, acao, data_criacao, ALERTAS_id, USUARIOS_id)
+VALUES (5, 'CRIADO', TO_DATE('01/06/2026','DD/MM/YYYY'), 3, 3);
+
+INSERT INTO ARGOS_LOGS_ALERTA (id, acao, data_criacao, ALERTAS_id, USUARIOS_id)
+VALUES (6, 'CRIADO', TO_DATE('01/06/2026','DD/MM/YYYY'), 4, 2);
+
+INSERT INTO ARGOS_LOGS_ALERTA (id, acao, data_criacao, ALERTAS_id, USUARIOS_id)
+VALUES (7, 'ATIVADO', TO_DATE('01/06/2026','DD/MM/YYYY'), 4, 2);
+
+INSERT INTO ARGOS_LOGS_ALERTA (id, acao, data_criacao, ALERTAS_id, USUARIOS_id)
+VALUES (8, 'CRIADO', TO_DATE('01/06/2026','DD/MM/YYYY'), 5, 3);
+
+INSERT INTO ARGOS_LOGS_ALERTA (id, acao, data_criacao, ALERTAS_id, USUARIOS_id)
+VALUES (9, 'DESATIVADO', TO_DATE('03/06/2026','DD/MM/YYYY'), 5, 3);
+
+INSERT INTO ARGOS_LOGS_ALERTA (id, acao, data_criacao, ALERTAS_id, USUARIOS_id)
+VALUES (10, 'ENCERRADO', TO_DATE('05/06/2026','DD/MM/YYYY'), 1, 2);
+
 -- PROCEDURES
