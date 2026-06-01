@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E8588D2-2267-AFBE-0E19-0B08694B8015" name="ARGOS_LOGS_ALERTA">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>134E55A5-53C4-CE8E-F98F-939AA565A635</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="D9C368B6-B49D-26AF-E52A-10C8B2C27CF0">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>9659D1B4-FB6B-19E7-1444-1CF357B66933</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="acao" id="ED955222-FD5E-4EF5-DB49-81E75E7A188E">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>DF1193F1-47B7-A245-A8F3-E8FE5C5B6310</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_criacao" id="5CB3CF08-92EB-F655-82F9-EE5ED38A3DE6">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>B2ECC889-432A-D45E-FE78-6F1FEA1A1EA1</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALERTAS_id" id="F150E429-450F-C01D-6CDE-789A5D33D2A7">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>809CE547-7EB3-E5F2-FD6F-E425A20AD351</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90D62A2E-3E6C-EE0F-DAAF-1C7BAA970BB8" referredColumn="70114AA3-152C-08BA-7114-FA0147B5435D"/>
+</associations>
+</Column>
+<Column name="USUARIOS_id" id="AAFF4B34-AEBD-6344-1D54-C90487DB2AFF">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 14:08:34 UTC</createdTime>
+<generatorID>810AF886-2B28-D2EA-1B80-79C6B718AE48</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2769CB2-D9A3-2EA6-E8D1-7D17E98073DA" referredColumn="1D71DA3F-9288-82FF-C4FE-B1FD429DCCC6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B777116-B3D6-9FC1-20FF-EFEF576C49D9" name="LOGS_ALERTA_PK">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>BEEBD2D3-C178-FF76-FBD8-F71E3263409F</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9C368B6-B49D-26AF-E52A-10C8B2C27CF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="245814D7-A709-AD49-8A75-57A948F49736" name="LOGS_ALERTA_ALERTAS_FK">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>AD2F0D2F-9A0C-6BBB-9144-38B11A694966</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F150E429-450F-C01D-6CDE-789A5D33D2A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9CC041A0-8CB9-94A8-22C0-C80B5419B532" name="LOGS_ALERTA_USUARIOS_FK">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 14:08:34 UTC</createdTime>
+<generatorID>26D231B6-06F2-6187-E665-DF2E24BE4D2B</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAFF4B34-AEBD-6344-1D54-C90487DB2AFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="LOGS_ALERTA_CK_1" directorySegmentName="seg_0" id="7DCDDDF2-A80F-63E1-15E5-9ED3EF153D02">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 14:16:21 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<rule><![CDATA[acao IN (
+    'CRIADO',
+    'EDITADO',
+    'ATIVADO',
+    'DESATIVADO',
+    'ENCERRADO'
+)]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

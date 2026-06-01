@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="90D62A2E-3E6C-EE0F-DAAF-1C7BAA970BB8" containerWithKeyObject="1E8588D2-2267-AFBE-0E19-0B08694B8015" localFKIndex="245814D7-A709-AD49-8A75-57A948F49736" name="LOGS_ALERTA_ALERTAS_FK">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>AD2F0D2F-9A0C-6BBB-9144-38B11A694966</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<referredTableLongName>ARGOS_ALERTAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0C01152F-7C7D-0E81-E23D-3A26D9D5FAC6</referredTableID>
+<keyObject>F57F1895-6BF7-F871-E52B-32943AF28B9C</keyObject>
+<referredKeyID>F57F1895-6BF7-F871-E52B-32943AF28B9C</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

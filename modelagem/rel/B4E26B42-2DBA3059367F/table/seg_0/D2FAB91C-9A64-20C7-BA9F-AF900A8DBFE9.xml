@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2FAB91C-9A64-20C7-BA9F-AF900A8DBFE9" name="ARGOS_USUARIOS">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>04745E2F-7626-FDD9-ADEA-B1861180CDC2</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1D71DA3F-9288-82FF-C4FE-B1FD429DCCC6">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>3213DB56-7271-9FD6-7F06-FFDC06A26D01</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="C26BF1B0-8DA5-AE71-943E-FE69AC481A6A">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>33EFB491-BFBE-A303-830A-859B9F9420CE</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="A864C891-945D-D24B-F662-968227020516">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>7D78DDC2-B512-C65F-2D7C-FA785A292436</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="24F72360-216C-D252-3563-71072E48328E">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>DA13C697-4E4F-A397-9D7C-24713B407099</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="5681CEAB-B7F8-8344-ECF7-5EF7CD05B8A1">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>37B1C0A8-2B71-CF71-B1EA-A07404826F64</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="188AC92B-658C-0AD5-68DD-CC1FFD7478C1">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>785D5AE9-5500-43E1-8927-57E1CF99AD43</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_criacao" id="D57DB9DC-8CEB-4B46-4202-EBE9CFCA62B4">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>A369FC52-8164-ED13-6292-BF1E7E9D5319</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ativo" id="9C9066F6-8CCB-FC24-4F9B-79A21DEAB237">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>D22041F7-B261-707F-D930-70844347AE53</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A3D1A708-3A4F-D3CD-F994-1ACAC9BD67E1" name="USUARIOS_PK">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>77D52D85-5C3F-E7D3-305C-81CBE6D55486</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D71DA3F-9288-82FF-C4FE-B1FD429DCCC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01984782-DC12-D36F-28DD-FF5C9BE7346D" name="USUARIOS_email_UN">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:58:14 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A864C891-945D-D24B-F662-968227020516"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="USUARIOS_CK_1" directorySegmentName="seg_0" id="5F04BA2F-5EA6-8766-2630-6941A992FC8C">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:59:38 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<rule><![CDATA[ativo IN ('S','N')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="USUARIOS_CK_2" directorySegmentName="seg_0" id="E6514C78-EE99-2145-8374-6791360FBF53">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:59:52 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<rule><![CDATA[tipo IN (
+    'CIDADAO',
+    'DEFESA_CIVIL',
+    'ADMIN'
+)]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

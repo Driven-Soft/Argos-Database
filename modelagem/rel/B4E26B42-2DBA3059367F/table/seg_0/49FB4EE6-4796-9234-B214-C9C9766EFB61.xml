@@ -1,0 +1,240 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49FB4EE6-4796-9234-B214-C9C9766EFB61" name="ARGOS_OCORRENCIAS">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>1764F7A8-D9B6-CCED-82BB-DCEAC0E7078D</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="7852ADCA-6B6F-A967-D2DD-AC33C74ABA43">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>0B1C14FA-1021-E063-D25F-30B8C5E69216</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo" id="DF5F1135-720C-B42B-8602-86731909241F">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>4E9CCAD6-E208-F4C3-C1EB-237356DF1358</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="EDAE5478-E65A-F265-7694-5809B3D4F43E">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>96AC20EA-8D66-6882-381C-BE49B72309E5</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="AA756777-AA61-E05C-257A-2DE7CEB908BF">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>965DFDF8-E84A-BA26-1B21-9E387902BD9F</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="latitude" id="03567730-3F06-DF80-420F-0C19EC6A99F0">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>5BA7A340-E911-115E-53A8-D8F1B4215A61</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,9,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="longitude" id="9749B5F7-63C1-104C-4237-7E2E2D1EB0B9">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>5D9DADB4-662F-FE40-F16F-59AF0A009543</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,9,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_criacao" id="1BED7CB6-BDCB-52E2-2374-A68A4C1BDCAD">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>150FB43A-551F-4D06-FB42-48E647979AB7</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_atualizacao" id="AE250660-B1DF-82F5-FF73-6C5306DDB865">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>01E64D96-0197-2FB4-17BA-CDC035CB6F6B</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="resolvido_em" id="FCC5B86E-8623-9424-333E-6FDF48BDA34D">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>9366728B-9F35-A7EF-34A9-818578514C13</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIOS_id" id="2D817C57-C853-E595-2E96-12094309EDF8">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>C4F24709-A8EE-6618-EA92-A28281F0A398</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7B73AD3-C6BC-6807-F67F-60F5E7849301" referredColumn="1D71DA3F-9288-82FF-C4FE-B1FD429DCCC6"/>
+</associations>
+</Column>
+<Column name="TIPOS_OCORRENCIA_id" id="D08FBA89-41FF-948C-8AF3-27BE2E444EF7">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>2423A41F-D33B-2753-37E0-980FC39F9D0D</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E06B332E-7124-D278-5D9C-AC6F23C29E76" referredColumn="7E51D92F-64DE-8FF0-75AF-CDFD9466F0F7"/>
+</associations>
+</Column>
+<Column name="ZONAS_RISCO_id" id="EE959C34-FB9B-BD46-4064-D9CAD83D28F2">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>439A6DFF-DBE3-52B7-2FEE-DDD229287BAD</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6953115D-34C1-D0F2-BB3E-6B8D0E98D82C" referredColumn="354FCF6C-F613-2779-F45B-3336B31C13A6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05169FAE-1AE0-4A1B-905C-F4D89DEBE214" name="OCORRENCIAS_PK">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>AC753FD7-3CF0-D5CB-305D-B1DEEF2C881E</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7852ADCA-6B6F-A967-D2DD-AC33C74ABA43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBF7CBCA-3B68-35F8-263A-73549B0C4C20" name="OCORRENCIAS_TIPOS_OCORRENCIA_FK">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>276E0AC0-BDF6-958D-6421-095B5AB8920E</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D08FBA89-41FF-948C-8AF3-27BE2E444EF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B4BCA9C-46B9-4D51-07B1-52C9C7A8936D" name="OCORRENCIAS_USUARIOS_FK">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>470212F3-FBB4-A8C4-990F-BE83D94CE804</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D817C57-C853-E595-2E96-12094309EDF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C51CF015-AE52-7536-4A18-04306C5E8C3D" name="OCORRENCIAS_ZONAS_RISCO_FK">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>98C631AA-2C3C-283A-E9E6-7CBD2C2A043B</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE959C34-FB9B-BD46-4064-D9CAD83D28F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="OCORRENCIAS_CK_1" directorySegmentName="seg_0" id="F8D999A7-0B6A-C780-D20B-06063C8AD4D8">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 14:02:33 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<rule><![CDATA[status IN (
+    'ABERTA',
+    'EM_ANALISE',
+    'RESOLVIDA'
+)]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="OCORRENCIAS_CK_2" directorySegmentName="seg_0" id="EF69F26A-D40C-F944-6843-855DEC1D971D">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 14:47:43 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<rule><![CDATA[latitude BETWEEN -90 AND 90]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="OCORRENCIAS_CK_3" directorySegmentName="seg_0" id="6F6D5588-FCB0-A5AB-6154-2ED0F5CA8C7F">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 14:47:43 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<rule><![CDATA[longitude BETWEEN -180 AND 180]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

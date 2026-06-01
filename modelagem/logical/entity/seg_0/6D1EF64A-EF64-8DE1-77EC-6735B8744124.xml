@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6D1EF64A-EF64-8DE1-77EC-6735B8744124" name="ALERTAS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6D1EF64A-EF64-8DE1-77EC-6735B8744124" name="ARGOS_ALERTAS">
 <createdBy>shhit</createdBy>
 <createdTime>2026-05-29 18:10:22 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2026-05-29 18:10:33 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2026-05-29 18:10:38 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,19 +45,19 @@
 <createdTime>2026-05-29 18:10:51 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT028</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nivel_alerta" id="2D460A08-A79F-3472-1B22-AEF496FCEA7E">
+<Attribute name="nivel alerta" id="2D460A08-A79F-3472-1B22-AEF496FCEA7E">
 <createdBy>shhit</createdBy>
 <createdTime>2026-05-29 18:11:02 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -65,12 +65,12 @@
 <dataTypeSize>20 CHAR</dataTypeSize>
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="inicio_vigencia" id="EBEEB7DD-B932-14E9-06F6-2D0BB1E5B0C8">
+<Attribute name="inicio vigencia" id="EBEEB7DD-B932-14E9-06F6-2D0BB1E5B0C8">
 <createdBy>shhit</createdBy>
 <createdTime>2026-05-29 18:11:13 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -78,12 +78,12 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fim_vigencia" id="095BF1F6-82F0-55D2-E2E3-E579B5044ED9">
+<Attribute name="fim vigencia" id="095BF1F6-82F0-55D2-E2E3-E579B5044ED9">
 <createdBy>shhit</createdBy>
 <createdTime>2026-05-29 18:11:29 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -91,12 +91,12 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="data_criacao" id="8C1EFBD8-336D-A017-E003-79576BC9D40B">
+<Attribute name="data criacao" id="8C1EFBD8-336D-A017-E003-79576BC9D40B">
 <createdBy>shhit</createdBy>
 <createdTime>2026-05-29 18:11:37 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -108,7 +108,7 @@
 <createdTime>2026-05-29 18:11:42 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -116,13 +116,13 @@
 <dataTypeSize>1 CHAR</dataTypeSize>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id2" id="28D279D0-7789-EA6B-3748-5132E17E2825">
+<Attribute name="ZONAS RISCO id" id="28D279D0-7789-EA6B-3748-5132E17E2825">
 <createdBy>shhit</createdBy>
 <createdTime>2026-05-29 19:24:10 UTC</createdTime>
 <generatorID>F3D9212E-5E01-5DCF-6F00-C6E08EE7AD18</generatorID>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>D3F7A873-A281-C47C-E7BF-7E321A87B58F</referedAttribute>
@@ -131,13 +131,13 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id3" id="BE043AA8-C54E-DE00-C6BB-6BA0EC762481">
+<Attribute name="USUARIOS id" id="BE043AA8-C54E-DE00-C6BB-6BA0EC762481">
 <createdBy>shhit</createdBy>
 <createdTime>2026-05-29 19:24:40 UTC</createdTime>
 <generatorID>51CA03D7-E136-26CA-B705-BB672BD8BEFD</generatorID>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>3213DB56-7271-9FD6-7F06-FFDC06A26D01</referedAttribute>
@@ -152,8 +152,9 @@
 <createdBy>shhit</createdBy>
 <createdTime>2026-05-29 18:10:37 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

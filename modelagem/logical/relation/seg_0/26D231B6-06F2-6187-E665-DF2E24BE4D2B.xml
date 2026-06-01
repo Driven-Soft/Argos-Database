@@ -1,19 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ALERTAS ZONAS FK" directorySegmentName="seg_0" id="F3D9212E-5E01-5DCF-6F00-C6E08EE7AD18">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LOGS USUARIOS FK" directorySegmentName="seg_0" id="26D231B6-06F2-6187-E665-DF2E24BE4D2B">
 <createdBy>shhit</createdBy>
-<createdTime>2026-05-29 19:24:10 UTC</createdTime>
+<createdTime>2026-06-01 14:08:10 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
 <item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
-<sourcePk>BE9AB196-2765-826D-E9A1-7714021D6A55</sourcePk>
+<sourcePk>77D52D85-5C3F-E7D3-305C-81CBE6D55486</sourcePk>
+<targetPk>BEEBD2D3-C178-FF76-FBD8-F71E3263409F</targetPk>
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>446F8997-90EF-F15F-D7E9-226600F16FE0</sourceEntity>
+<sourceEntity>04745E2F-7626-FDD9-ADEA-B1861180CDC2</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>6D1EF64A-EF64-8DE1-77EC-6735B8744124</targetEntity>
+<targetEntity>134E55A5-53C4-CE8E-F98F-939AA565A635</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

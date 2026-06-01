@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="446F8997-90EF-F15F-D7E9-226600F16FE0" name="ZONAS_RISCO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="446F8997-90EF-F15F-D7E9-226600F16FE0" name="ARGOS_ZONAS_RISCO">
 <createdBy>shhit</createdBy>
 <createdTime>2026-05-29 18:04:35 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2026-05-29 19:17:01 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2026-05-29 18:04:55 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <createdTime>2026-05-29 18:05:05 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,7 +58,7 @@
 <createdTime>2026-05-29 18:05:15 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -71,33 +71,35 @@
 <createdTime>2026-05-29 18:05:23 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20 CHAR</dataTypeSize>
-<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,9,6</ownDataTypeParameters>
 </Attribute>
 <Attribute name="longitude" id="5D124601-72BF-D9B5-3F18-262BF67370F3">
 <createdBy>shhit</createdBy>
 <createdTime>2026-05-29 18:05:34 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20 CHAR</dataTypeSize>
-<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,9,6</ownDataTypeParameters>
 </Attribute>
 <Attribute name="descricao" id="5E651DDB-7F6A-F16B-7C58-DBCF37EFB759">
 <createdBy>shhit</createdBy>
 <createdTime>2026-05-29 18:05:46 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -105,12 +107,12 @@
 <logicalDatatype>LOGDT028</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nivel_risco_atual" id="6999DDD4-7754-5621-C4E2-4B36DDB043D5">
+<Attribute name="nivel risco atual" id="6999DDD4-7754-5621-C4E2-4B36DDB043D5">
 <createdBy>shhit</createdBy>
 <createdTime>2026-05-29 18:05:55 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -118,12 +120,12 @@
 <dataTypeSize>20 CHAR</dataTypeSize>
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="indice_susceptibilidade" id="00B0697C-30FE-D10B-2F1C-6D2CE8EB2DAF">
+<Attribute name="indice susceptibilidade" id="00B0697C-30FE-D10B-2F1C-6D2CE8EB2DAF">
 <createdBy>shhit</createdBy>
 <createdTime>2026-05-29 18:06:19 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -133,12 +135,12 @@
 <dataTypeScale>3</dataTypeScale>
 <ownDataTypeParameters>,4,3</ownDataTypeParameters>
 </Attribute>
-<Attribute name="indice_historico_risco" id="75E41EE6-DE31-D9F6-409F-A8B012AEE8C5">
+<Attribute name="indice historico risco" id="75E41EE6-DE31-D9F6-409F-A8B012AEE8C5">
 <createdBy>shhit</createdBy>
 <createdTime>2026-05-29 18:09:16 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -148,12 +150,12 @@
 <dataTypeScale>3</dataTypeScale>
 <ownDataTypeParameters>,4,3</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ultima_analise" id="FDC2B5CA-E5FC-F6D7-D896-2A5309070BC0">
+<Attribute name="ultima analise" id="FDC2B5CA-E5FC-F6D7-D896-2A5309070BC0">
 <createdBy>shhit</createdBy>
 <createdTime>2026-05-29 18:09:34 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -166,7 +168,7 @@
 <createdTime>2026-05-29 18:09:42 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -174,12 +176,12 @@
 <dataTypeSize>1 CHAR</dataTypeSize>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="data_criacao" id="CD59C11B-90DE-E75A-0017-D7EAA171C605">
+<Attribute name="data criacao" id="CD59C11B-90DE-E75A-0017-D7EAA171C605">
 <createdBy>shhit</createdBy>
 <createdTime>2026-05-29 18:09:48 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -188,12 +190,13 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="BE9AB196-2765-826D-E9A1-7714021D6A55" name="Zonas_Risco PK">
+<identifier id="BE9AB196-2765-826D-E9A1-7714021D6A55" name="ZONAS_RISCO_PK">
 <createdBy>shhit</createdBy>
 <createdTime>2026-05-29 18:04:55 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

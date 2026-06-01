@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E81C1A3F-4D90-E8EE-2695-FBB860245B83" name="TIPOS_OCORRENCIA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E81C1A3F-4D90-E8EE-2695-FBB860245B83" name="ARGOS_TIPOS_OCORRENCIA">
 <createdBy>shhit</createdBy>
 <createdTime>2026-05-29 18:53:38 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="6E5F7882-571B-2E28-9F5E-B18501ED2EC6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2026-05-29 18:53:43 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="6E5F7882-571B-2E28-9F5E-B18501ED2EC6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2026-05-29 18:53:49 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="6E5F7882-571B-2E28-9F5E-B18501ED2EC6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <createdTime>2026-05-29 18:54:08 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="6E5F7882-571B-2E28-9F5E-B18501ED2EC6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -58,7 +58,7 @@
 <createdTime>2026-05-29 18:54:15 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="6E5F7882-571B-2E28-9F5E-B18501ED2EC6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -68,12 +68,13 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="02B52CF0-F450-5DB7-148B-D8B0AE98C2FB" name="TIPO_OCORRENCIA PK">
+<identifier id="02B52CF0-F450-5DB7-148B-D8B0AE98C2FB" name="TIPOS_OCORRENCIA_PK">
 <createdBy>shhit</createdBy>
 <createdTime>2026-05-29 18:53:49 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="6E5F7882-571B-2E28-9F5E-B18501ED2EC6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

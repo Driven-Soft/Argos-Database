@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C0F060A3-0D11-323D-0B9F-680A2506CEF1" containerWithKeyObject="0C01152F-7C7D-0E81-E23D-3A26D9D5FAC6" localFKIndex="4B2A922E-6927-8732-487B-6E12298BC8F6" name="ALERTAS_ZONAS_RISCO_FK">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>F3D9212E-5E01-5DCF-6F00-C6E08EE7AD18</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<referredTableLongName>ARGOS_ZONAS_RISCO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>70FB3C4D-6BD6-D516-E2F3-AE2ED5503BB1</referredTableID>
+<keyObject>66ADDD38-A791-E8E2-D540-7A0A894CAFA6</keyObject>
+<referredKeyID>66ADDD38-A791-E8E2-D540-7A0A894CAFA6</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

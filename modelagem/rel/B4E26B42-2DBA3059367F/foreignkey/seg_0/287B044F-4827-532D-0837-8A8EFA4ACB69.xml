@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="287B044F-4827-532D-0837-8A8EFA4ACB69" containerWithKeyObject="53B7CF4B-8E4B-39E9-28BA-A523A19ADD88" localFKIndex="54AB16EE-5333-A63B-803B-EA1F44249AF5" name="COMENTARIOS_OCORRENCIA_USUARIOS_FK">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 13:57:28 UTC</createdTime>
+<generatorID>E4AACED4-CA17-BC24-6136-110D4A5C0E81</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<referredTableLongName>ARGOS_USUARIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D2FAB91C-9A64-20C7-BA9F-AF900A8DBFE9</referredTableID>
+<keyObject>A3D1A708-3A4F-D3CD-F994-1ACAC9BD67E1</keyObject>
+<referredKeyID>A3D1A708-3A4F-D3CD-F994-1ACAC9BD67E1</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

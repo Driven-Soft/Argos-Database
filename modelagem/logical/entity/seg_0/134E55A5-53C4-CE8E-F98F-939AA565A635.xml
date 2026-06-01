@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="134E55A5-53C4-CE8E-F98F-939AA565A635" name="LOGS_ALERTA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="134E55A5-53C4-CE8E-F98F-939AA565A635" name="ARGOS_LOGS_ALERTA">
 <createdBy>shhit</createdBy>
 <createdTime>2026-05-29 18:59:38 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2026-05-29 18:59:43 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2026-05-29 18:59:48 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -40,25 +40,25 @@
 <dataTypeSize>20 CHAR</dataTypeSize>
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="data_criacao" id="B2ECC889-432A-D45E-FE78-6F1FEA1A1EA1">
+<Attribute name="data criacao" id="B2ECC889-432A-D45E-FE78-6F1FEA1A1EA1">
 <createdBy>shhit</createdBy>
 <createdTime>2026-05-29 19:00:16 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="809CE547-7EB3-E5F2-FD6F-E425A20AD351">
+<Attribute name="ALERTAS id" id="809CE547-7EB3-E5F2-FD6F-E425A20AD351">
 <createdBy>shhit</createdBy>
 <createdTime>2026-05-29 19:38:23 UTC</createdTime>
 <generatorID>AD2F0D2F-9A0C-6BBB-9144-38B11A694966</generatorID>
 <ownerDesignName>modelagem</ownerDesignName>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>BC70046B-F11E-CC07-9B69-D29B36366F98</referedAttribute>
@@ -67,14 +67,30 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="USUARIOS id" id="810AF886-2B28-D2EA-1B80-79C6B718AE48">
+<createdBy>shhit</createdBy>
+<createdTime>2026-06-01 14:08:10 UTC</createdTime>
+<generatorID>26D231B6-06F2-6187-E665-DF2E24BE4D2B</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3213DB56-7271-9FD6-7F06-FFDC06A26D01</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="BEEBD2D3-C178-FF76-FBD8-F71E3263409F" name="LOGS_ALERTA PK">
+<identifier id="BEEBD2D3-C178-FF76-FBD8-F71E3263409F" name="LOGS_ALERTA_PK">
 <createdBy>shhit</createdBy>
 <createdTime>2026-05-29 18:59:48 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C7587CBD-BB48-B4AC-0F68-D8416A5B59E6" value="true"/>
+<item key="B4E26B42-DBAE-0E3B-4BC6-2DBA3059367F" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
