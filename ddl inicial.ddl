@@ -3,6 +3,8 @@
 --   site:      Oracle Database 11g
 --   type:      Oracle Database 11g
 
+SET SERVEROUTPUT ON;
+
 -- DROP TABLES
 
 DROP TABLE ARGOS_ALERTAS CASCADE CONSTRAINTS;
